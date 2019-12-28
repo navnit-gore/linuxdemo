@@ -1,0 +1,106 @@
+
+for putty-
+
+create ubuntu instance-connect-copy the hostname after@
+open putty application
+
+session-hostname=ec2-13-232-114-213.ap-south-1.compute.amazonaws.com
+connection-data-username=ubuntu
+
+open putty key generator
+click on load-browse ubuntu key file 
+click on save private file in any folder
+ssh-auth-browse putty file from the folder
+
+you will get ubuntu screen opened...
+
+for ubuntu=
+>ls
+>cd ..
+>ls
+>cd ubuntu(username)
+>mkdir remotedemo
+>cd remotedemo
+>sudo apt-get update
+>sudo apt-get install nodejs
+yes
+>sudo apt-get install npm
+yes
+>mkdir nodeapp
+>cd nodeapp
+>git clone (url of git repository)
+>ls
+>cd gitnodefoldername
+>node servername.js
+
+to create git=
+create repo-name-public-create repository
+create new folder-drag that folderin visual studio code -make two sample files(node js files) (node project)
+
+install gitsoftware
+launch gitbash
+>cd drag the same folder in which u have make two sample node files
+>git init
+>git add .
+>git commit -m "git created successfully.."
+
+copy the last two lines of git (…or create a new repository on the command line)
+>git remote add origin https://github.com/kanchanphad09/nodejs.git
+>git push -u origin master
+
+
+login into newly opened git login window
+reload the git account page
+if ur running git bash second time for creating new repository then new login window will not get open\
+--u just have to reload the git page--ur repository will get created
+
+click on clone or download---copy that repository url paste it into ubuntu after (>git clone )
+
+to run newly uploaded node project of git repository
+do all this steps on ubuntu shell windows
+
+>mkdir nodeapp
+>cd nodeapp
+>git clone (url of git repository)
+>ls
+>cd gitnodefoldername
+>node servername.js
+
+copy that IPV4 public ip address
+paste it into browser window 
+ipadress:portno
+eg-13.232.114.213:3000---press enter
+
+
+Steps for docker=
+
+for putty-
+
+create ubuntu instance-connect-copy the hostname after@
+open putty application
+
+session-hostname=ec2-13-232-114-213.ap-south-1.compute.amazonaws.com
+connection-data-username=ubuntu
+
+
+
+on ubuntu shell
+
+
+>sudo apt-get install docker.io
+>sudo systemctl start docker 
+> sudo systemctl status docker
+> sudo systemctl enable docker
+> sudo docker pull hello-world
+>sudo docker images
+>sudo docker run hello-world
+>sudo docker pull nginx
+>sudo docker run --name webserver -d -p 8080:80 nginx:latest
+open the browser window 
+
+copy that IPV4 public ip address
+paste it into browser window 
+ipadress:portno
+eg-13.232.114.213:8080---press enter
+
+
